@@ -37,7 +37,7 @@ const origins = [
 
 export const SingleOriginSection = () => {
     return (
-        <section className="py-28  border-t border-white/5">
+        <section className="py-28  border-t border-white/5 ">
             <div className="max-w-7xl mx-auto px-6 ">
 
                 {/* Section Header */}
@@ -104,6 +104,6 @@ export const SingleOriginSection = () => {
                     ))}
                 </div>
             </div>
-        </section>
+        </section >
     );
 };

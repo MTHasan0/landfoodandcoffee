@@ -88,55 +88,55 @@ const cardData: CardData[] = [
     {
         id: 1,
         imageUrl:
-            "https://i.pinimg.com/736x/d6/8a/12/d68a121e960094f99ad8acd37505fb7d.jpg",
-        title: "Crimson Forest",
+            "https://res.cloudinary.com/dyijaykqi/image/upload/v1767299004/coffee-3759024_1280_x8x3s0.jpg",
+        title: "Midnight Espresso",
     },
     {
         id: 2,
         imageUrl:
-            "https://i.pinimg.com/736x/21/16/f7/2116f71f9d51d875e44d809f074ff079.jpg",
+            "https://res.cloudinary.com/dyijaykqi/image/upload/v1767299315/coffee-1004252_1280_hb52ah.jpg",
         title: "Misty Mountains",
     },
     {
         id: 3,
         imageUrl:
-            "https://i.pinimg.com/1200x/fe/c2/0d/fec20d2958059b8463bffb138d4eaac6.jpg",
+            "https://res.cloudinary.com/dyijaykqi/image/upload/v1767388420/gin-and-tonic-4478219_1280_o6k0f2.jpg",
         title: "Floating Islands",
     },
     {
         id: 4,
         imageUrl:
-            "https://i.pinimg.com/736x/84/dc/62/84dc62de850a34a9d420c97f3a2d58f4.jpg",
+            "https://res.cloudinary.com/dyijaykqi/image/upload/v1767388420/gin-and-tonic-4478219_1280_o6k0f2.jpg",
         title: "Crystal Cave",
     },
     {
         id: 5,
         imageUrl:
-            "https://i.pinimg.com/1200x/be/c3/7e/bec37e2c43e703f922f887db2578ce2e.jpg",
+            "https://res.cloudinary.com/dyijaykqi/image/upload/v1767388420/gin-and-tonic-4478219_1280_o6k0f2.jpg",
         title: "Sunset Peaks",
     },
     {
         id: 6,
         imageUrl:
-            "https://i.pinimg.com/736x/47/dd/47/47dd47b0d66c2fa641e03e370bcb5433.jpg",
+            "https://res.cloudinary.com/dyijaykqi/image/upload/v1767388420/gin-and-tonic-4478219_1280_o6k0f2.jpg",
         title: "Night Sky",
     },
     {
         id: 7,
         imageUrl:
-            "https://i.pinimg.com/736x/05/01/bc/0501bcd327d9df915e83154bbf9456e3.jpg",
+            "https://res.cloudinary.com/dyijaykqi/image/upload/v1767388420/gin-and-tonic-4478219_1280_o6k0f2.jpg",
         title: "Ancient Ruins",
     },
     {
         id: 8,
         imageUrl:
-            "https://i.pinimg.com/736x/c1/46/be/c146bebffca026d2c4fa76cc85aac917.jpg",
+            "https://res.cloudinary.com/dyijaykqi/image/upload/v1767388420/gin-and-tonic-4478219_1280_o6k0f2.jpg",
         title: "Magical Tree",
     },
     {
         id: 9,
         imageUrl:
-            "https://i.pinimg.com/736x/91/7a/51/917a51df0d444def3cade8d626305a67.jpg",
+            "https://res.cloudinary.com/dyijaykqi/image/upload/v1767388420/gin-and-tonic-4478219_1280_o6k0f2.jpg",
         title: "Celestial Waters",
     },
 ];
@@ -196,10 +196,7 @@ export default function Carousel() {
                 onMouseLeave={() => setIsPaused(false)}
             >
                 <div className="relative flex w-full flex-col rounded-3xl border border-white/10 dark:border-white/10 bg-white dark:bg-neutral-900 p-4 pt-6 md:p-6">
-                    <Badge className="absolute left-4 top-6 rounded-xl border border-gray-300 dark:border-white/10 text-base text-gray-700 dark:text-white/80 bg-gray-100/80 dark:bg-black/20 backdrop-blur-sm md:left-6">
-                        <SparklesIcon className="fill-[#EEBDE0] stroke-1 text-neutral-800 h-5 w-5 mr-1" />
-                        Enhanced Carousel
-                    </Badge>
+
 
                     <div className="relative w-full h-[280px] md:h-[400px] flex items-center justify-center overflow-hidden pt-12">
                         <motion.div
@@ -276,7 +273,7 @@ function Card({ card, index, activeIndex, totalCards }: CardProps) {
 
     return (
         <motion.div
-            className="absolute w-1/2 md:w-1/3 h-[95%]"
+            className="absolute w-1/2 md:w-1/3 "
             style={{
                 transformStyle: "preserve-3d",
             }}

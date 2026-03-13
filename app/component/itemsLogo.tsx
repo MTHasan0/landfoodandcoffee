@@ -16,7 +16,7 @@ const itemsLogo = () => {
         <div>
             <div
 
-                className=' bg-gray-50   flex items-center justify-center w-full gap-10 py-5 text-4xl '>
+                className=' bg-gray-50 flex items-center justify-center w-full gap-10 py-5 text-4xl '>
                 {
 
                     icons.map((Icon, index) =>

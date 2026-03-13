@@ -8,3 +8,8 @@
 .text-color {
   color: #da8b2c;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
