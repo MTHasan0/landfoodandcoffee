@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.btn-color {
+  color: #da8b2c
+}
+
+.text-color {
+  color: #da8b2c;
+}
